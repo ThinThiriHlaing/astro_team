@@ -4,35 +4,36 @@ import Card from '../components/Card.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
+	<section>
+		<div class="home">
+		  <div class="home-content">
+			<div class="first_content">
+			  <h1>I AM ROXY</h1>
+			  <h5>Kitesurfer</h5>
+			</div>
+			<div class="second_content">
+			  <p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+				molestiae laborum dolorem aspernatur, doloremque rem corporis ut
+				officiis enim possimus quia blanditiis, saepe esse sed nemo sint
+				aperiam eum similique.
+			  </p>
+			  <!-- <p>MORE ABOUT ME</p> -->
+			</div>
+		  </div>
+		  <div class="image">
+			<img
+			  class="image_1"
+			  src="http://static.showit.co/800/gZDD29CnRUa-fvf_RkhUow/69254/camille-brodard-fylwhdmwcgs-unsplash.jpg"
 			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
+			<img
+			  class="image_2"
+			  src="http://static.showit.co/400/-q6DcY2aRbqCPJpFCoRHXg/69254/mathilde-langevin-uxqexcc4zqy-unsplash.jpg"
+			  alt="roxy"
 			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
+		  </div>
+		</div>
+	  </section>
 </Layout>
 
 <style>
