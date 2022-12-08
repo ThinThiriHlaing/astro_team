@@ -136,9 +136,15 @@ body {
   text-decoration: none;
 }
 
+.our_team_section{
+  background-color: #f4ece2;
+  height: 100vh;
+}
+
 .card-list {
   display: flex;
   gap: 3rem;
+  margin-top: -15rem;
 }
 
 
@@ -160,7 +166,6 @@ background-color: #f4ece2;
   display: grid;
   height: 100%;
   place-items: center;
-  background: #f4ece2;
   align-content: center;
 }
 
@@ -325,6 +330,10 @@ background-color: #f4ece2;
   .first_body_content p {
     font-size: 1.6rem;
   }
+
+  .card-list {
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 855px) {
@@ -383,6 +392,9 @@ background-color: #f4ece2;
   }
   .view_gallery h1 {
     font-size: 1.8rem;
+  }
+  .card-list{
+    margin-top: 0;
   }
 }
 
