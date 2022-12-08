@@ -23,7 +23,7 @@ body {
   width: 100%;
   height: 100%;
   flex-grow: 1;
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 
 .home-content {
@@ -74,6 +74,9 @@ body {
   margin-top: 22rem;
 }
 
+.body_section{
+  margin-top: 5rem;
+}
 .body {
   display: flex;
   width: 100%;
@@ -136,6 +139,21 @@ body {
 .card-list {
   display: flex;
   gap: 3rem;
+}
+
+
+.profile-img {
+width: 6rem;
+
+}
+.Our-team {
+margin-top: 50;
+margin-bottom: 50;
+background-color: #f4ece2;
+}
+.btn{
+  background-color: #c4985e;
+  color: white;
 }
 
 .container {
