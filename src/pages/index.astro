@@ -4,6 +4,9 @@ import Layout from "../layouts/Layout.astro";
 import "../css/style.css";
 import OurTeam from "../components/OurTeam.astro";
 import Galleries from "../components/Galleries.astro";
+import image_L from "../assets/img_L.jpg"
+import image_S from "../assets/img_S.jpg"
+
 ---
 
 <Layout title="Welcome to Astro.">
@@ -27,11 +30,11 @@ import Galleries from "../components/Galleries.astro";
       <div class="image">
         <img
           class="image_1"
-          src="http://static.showit.co/800/gZDD29CnRUa-fvf_RkhUow/69254/camille-brodard-fylwhdmwcgs-unsplash.jpg"
+          src={image_L}
         />
         <img
           class="image_2"
-          src="http://static.showit.co/400/-q6DcY2aRbqCPJpFCoRHXg/69254/mathilde-langevin-uxqexcc4zqy-unsplash.jpg"
+          src={image_S}
           alt="roxy"
         />
       </div>
