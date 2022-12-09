@@ -74,7 +74,7 @@ body {
   margin-top: 22rem;
 }
 
-.body_section{
+.body_section {
   margin-top: 5rem;
 }
 .body {
@@ -136,28 +136,33 @@ body {
   text-decoration: none;
 }
 
-.our_team_section{
+.our_team_section {
+  height: 100%;
   background-color: #f4ece2;
-  height: 100vh;
+  margin-bottom: 3rem;
 }
 
+.content {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
 .card-list {
   display: flex;
   gap: 3rem;
-  margin-top: -15rem;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
-
 
 .profile-img {
-width: 6rem;
-
+  width: 6rem;
 }
 .Our-team {
-margin-top: 50;
-margin-bottom: 50;
-background-color: #f4ece2;
+  margin-top: 50;
+  margin-bottom: 50;
+  background-color: #f4ece2;
 }
-.btn{
+.btn {
   background-color: #c4985e;
   color: white;
 }
@@ -338,7 +343,6 @@ background-color: #f4ece2;
 
 @media (max-width: 855px) {
   .card-list {
-    flex-wrap: wrap;
     justify-content: center;
   }
 }
@@ -393,7 +397,7 @@ background-color: #f4ece2;
   .view_gallery h1 {
     font-size: 1.8rem;
   }
-  .card-list{
+  .card-list {
     margin-top: 0;
   }
 }

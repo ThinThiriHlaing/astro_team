@@ -1,16 +1,23 @@
 ---
-import "../css/style.css"
-const {title,img_url}=Astro.props;
+import "../css/style.css";
+const { title, img_url } = Astro.props;
 ---
 
-
 <div class="card animate__animated">
-    <div class="circle-image-profile">
-      <img src={img_url} class="inner" alt="p-1" />
-    </div>
+  <div class="circle-image-profile">
+    <img src={img_url} class="inner" alt="p-1" />
+  </div>
 
-    <div class="name-info">
-      <h4 class="name">{title}</h4>
-      <h5 class="level">WebDeveloper</h5>
-    </div>
+  <div class="name-info">
+    <h4 class="name">{title}</h4>
+    <h5 class="level">WebDeveloper</h5>
+  </div>
+  <div>
+    <p class="m-t-md">
+      <strong>Twitter, Inc.</strong><br />
+      795 Folsom Ave, Suite 600<br />
+      San Francisco, CA 94107<br />
+      <abbr title="Phone">P:</abbr> (123) 456-7890
+    </p>
+  </div>
 </div>
