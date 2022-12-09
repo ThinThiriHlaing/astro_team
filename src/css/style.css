@@ -140,18 +140,23 @@ body {
   height: 100%;
   background-color: #f4ece2;
   margin-bottom: 3rem;
+  width: 60%;
+  justify-content: center;
+  margin-left: 17rem;
 }
 
 .content {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 4rem;
+
 }
 .card-list {
   display: flex;
   gap: 3rem;
   flex-wrap: wrap;
-  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
 .profile-img {
@@ -231,7 +236,8 @@ body {
 }
 
 .name-info .level {
-  font-size: 0.75rem;
+  font-size: .9rem;
+  color: #bb7211;
 }
 
 .member-info {
@@ -298,6 +304,31 @@ body {
   animation: fadeInDown;
   animation-duration: 1.4s;
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 1rem 0;
+}
+
+.social-icons i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.github {
+  color: #333;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
 
 @media (max-width: 1025px) {
   .first_content h1 {
