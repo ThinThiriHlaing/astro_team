@@ -145,11 +145,14 @@ body {
   margin-left: 17rem;
 }
 
+.width-max{
+  width: max-content;
+}
+
 .content {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 4rem;
-
 }
 .card-list {
   display: flex;
@@ -161,6 +164,8 @@ body {
 
 .profile-img {
   width: 6rem;
+  height: 6rem;
+  object-fit: cover;
 }
 .Our-team {
   margin-top: 50;
@@ -236,7 +241,7 @@ body {
 }
 
 .name-info .level {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: #bb7211;
 }
 
@@ -328,7 +333,6 @@ body {
 .twitter {
   color: #1da1f2;
 }
-
 
 @media (max-width: 1025px) {
   .first_content h1 {
